@@ -1,19 +1,29 @@
-h1 , h2 {
+.headline, .subhead {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-p {
-    font-family: 'Andada Pro', serif;
+.headline {
+    font-size: 2.5em;
+    font-weight: 900;
 }
 
-.quotetext {
-    font-family: 'Caveat', cursive;
-    font-size: 1.5em;
+.subhead {
+    font-size: 1.81em;
+    font-weight: 700;
+}
+
+.introtext, .bodytext {
+    font-family: 'Roboto Slab', serif;
 }
 
 .introtext {
-    font-weight: bold;
-    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.quotetext {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 1.25em;
+    font-weight: 700;
 }
 
 body {
@@ -30,22 +40,4 @@ body {
 
 h3 {
     color:darkslateblue;
-}
-
-.posterh1, .posterh2 {
-    font-family: 'Bebas Neue', cursive;
-}
-
-.posterp, .posterintro {
-    font-family: 'Roboto Slab', serif;
-}
-
-.posterintro {
-    font-weight: bold;
-}
-
-.posterquote {
-    font-family: 'Nothing You Could Do', cursive;
-    font-size: 1.5em;
-    font-weight: bold;
 }
