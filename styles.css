@@ -31,3 +31,21 @@ body {
 h3 {
     color:darkslateblue;
 }
+
+.posterh1, .posterh2 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.posterp, .posterintro {
+    font-family: 'Roboto Slab', serif;
+}
+
+.posterintro {
+    font-weight: bold;
+}
+
+.posterquote {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+}
